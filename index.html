@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+	<nav>
+		<div class="container">
+			<div class="navbar">
+				<div class="navbar_logo"></div>
+				<div class="navbar_nav">
+					<ul class="nav_list">
+						<button onclick="scrollToTarget()">Что я могу</button>
+						<button onclick="scrollToTarget2()">Партфолио</button>
+						<button onclick="scrollToTarget3()">Связаться</button>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<header><div class="container">
+		<div class="promo">
+			<div class="promo_text">
+				<h1 class="promo_title">Привет!</h1>
+				<p class="promo_subtitle">
+					Я вроде как в html, css и javascript умею.
+				</p>
+			</div>
+			<div id="target-location"></div>
+			<a href="" class="promo_scroll"><i class="fas
+				 sa-chevron-down"></i></a>
+		</div>
+	   </header>
+	</div>
+	<section class="about">
+		<div id="target-location"></div>
+		<div class="container">
+		   <div class="about_cards">
+		<div class="about_card">
+			<h3 class="about_headliner">Создание сайта</h3>
+			<p class="about_sub_headliner">Создание сайта – это многоэтапный процесс, который требует не только креативного подхода, но и технических навыков.</p>
+				<img class="about_icon" src="eye.jpg">
+		</div>
+		<div class="about_card">
+			<h3 class="about_headliner">О себе</h3>
+			<p class="about_sub_headliner">Я начинающий программист, но я активно учусь и уже умею создавать базовые сайты. Сайт, на котором вы сейчас находитесь, тому подтверждение.
+			</p>
+			<img class="about_icon" src="eye2.jpg">
+		</div>
+		<div class="about_card">
+
+			<h3 class="about_headliner">Создание сайтов</h3>
+			<p class="about_sub_headliner">
+				Создание сайтов - задача не из легких, требует терпения и внимания к деталям. Но это то, с чем я отлично справляюсь!</p>
+				<img class="about_icon" src="eye3.jpg">
+		</div>
+		<div class="about_card">
+
+			<h3 class="about_headliner">JavaScript и CSS</h3>
+			<p class="about_sub_headliner">
+				JavaScript и CSS - кажутся проще, чем есть на самом деле. Это мощные, но комплексные языки, требующие усилий для освоения.</p>
+				<img class="about_icon" src="eye4.jpg">
+		</div>
+	</div>
+	<div id="target-location2"></div>
+	   </section>
+	</section>
+	<section class="works">
+	 <div class="container">
+		 <div class="section_heading">
+			 <h2 class="section_title">Партфолио</h2>
+			 <p class="section_subtitle">Сайты которые я сделал во время обучения</p>
+		 </div>
+		 <div class="image-container" id="gallery">
+				 <img class="image" src="images/img-1.jpg" alt="Image 1">
+				 <img class="image" src="images/img-2.jpg" alt="Image 2">
+				 <img class="image" src="images/img-3.gif" alt="Image 3">
+				 <img class="image" src="images/img-4.gif" alt="Image 4">
+				 <img class="image" src="images/img-5.gif" alt="Image 5">
+				 <img class="image" src="images/img-6.gif" alt="Image 6">
+				 <img class="image" src="images/img-7.jpg" alt="Image 7">
+				 <img class="image" src="images/img-8.jpg" alt="">
+	    </div>
+	 <div class="popup-image">
+		<span>&times;</span>
+		<img src="images/img-1.jpg" alt="">
+	</div>
+	</section>
+	<section class="contact_us">
+		<div id="target-location3"></div>
+		<div class="container">
+			<div class="section_heading">
+				<h2 class="section_title" id="contact_us_title">Связь</h2>
+				<p class="section_subtitle" id="contact_us_title">Вы можете попытаться связаться со мной.</p>
+			</div>
+			<div class="contacts">
+				<div class="contact_block">
+					<h3 class="contact_block_info">Донецк</h3>
+				</div>
+				<div class="contact_block">
+					<h3 class="contact_block_info">+555-34234</h3>
+				</div>
+				<div class="contact_block">
+					<h3 class="contact_block_info">leonidtext@gmail.com</h3>
+				</div>
+			</div>
+			<form class="contact_us_form">
+				<input placeholder="Ваше Имя" type="text" class="contact_us_input" id="contact_block_1">
+				<input placeholder="Ваша Почта" type="email" class="contact_us_input" id="contact_block_2">
+				<textarea placeholder="Ваше Сообщение" id="contact_block_3" cols="30" rows="10" class="contact_us_input"></textarea>
+				<button class="contact_us_send_button contact_us_input" id="contact_block_4">Отправить</button>
+			</form>
+		</div>
+	   </section>
+	</body>
+	</html>
+	<script src="script.js"></script>
+</body>
+</html>
+
